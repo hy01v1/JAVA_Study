@@ -20,6 +20,7 @@ public class WhileEX02 {
 			System.out.println("속도입력 : ");
 			int choice = sc.nextInt();
 			
+			
 			if (choice == 1){
 				speed++;
 				System.out.println("현재 속도 : " + speed);
