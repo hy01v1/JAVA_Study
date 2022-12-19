@@ -1,6 +1,6 @@
 package example01;
 
-public class Array02EX {
+public class ArrayEX02 {
 
 	public static void main(String[] args) {
 		
