@@ -11,17 +11,22 @@ public class ArrayEX03 {
 		int[] arr1 = new int [10];
 		// 40bite 가 heap에 생성되었다.
 		char[] chArr = new char[] { 'a', 'b', 'c'};
-		// 6bite 가 heap에 생성되었다.
+		// 6bite 가 heap에 생성되었다.(2bite(char type) * 3)
 		
 		for(int i=0; i<arr1.length; i++) {
-			arr1[i] = (int)(Math.random()*10)+1;
+
+			arr1[i] = (int)(Math.random()*10)+1;	// arr1[i] 는 변수 사용과 같이 입력
 			// 범위 : 1~10 까지 의 난수를 대입
+
 		}
 		for(int i=0; i<arr1.length; i++) {
+
 			System.out.print(arr1[i]);
 			// 배열의 값을 출력
+
 		}
-		System.out.println();
+		System.out.println();	//줄바꾸기
+
 		System.out.println("------------------------------");
 
 		for(int i=0; i<arr1.length; i++) {
@@ -33,10 +38,19 @@ public class ArrayEX03 {
 				// 배열의 값을 보기 좋게 출력
 			}
 		}
-			System.out.println();
+		System.out.println();
+			
+		System.out.println("---------------------");
+			
 			System.out.println(Arrays.toString(arr1));
 			// Arrays 클레스는 배열을 조작하기 쉽게 만들어 놓은 유틸리티 클레스이다.
-			System.out.println(Arrays.toString(chArr));
+			// Arrays.toString = 위의 조건식
+		
+		System.out.println("---------------------");
+			
+		System.out.println(Arrays.toString(chArr));
+
+		System.out.println("---------------------");
 		
 		System.out.println(arr1);	//int 타입이 출력된다. 출력시 참조변수명.toString()호출이 자동으로 입력된다.
 		System.out.println(arr1.toString());	//int 타입이 출력된다. 출력시 참조변수명.toString()호출이 자동으로 입력된다.
