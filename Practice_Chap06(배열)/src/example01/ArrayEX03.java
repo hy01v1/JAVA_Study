@@ -14,13 +14,11 @@ public class ArrayEX03 {
 		// 6bite 가 heap에 생성되었다.(2bite(char type) * 3)
 		
 		for(int i=0; i<arr1.length; i++) {
-
 			arr1[i] = (int)(Math.random()*10)+1;	// arr1[i] 는 변수 사용과 같이 입력
 			// 범위 : 1~10 까지 의 난수를 대입
-
 		}
-		for(int i=0; i<arr1.length; i++) {
 
+		for(int i=0; i<arr1.length; i++) {
 			System.out.print(arr1[i]);
 			// 배열의 값을 출력
 
