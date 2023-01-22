@@ -18,16 +18,15 @@ public class ArrayEX002 {
 		
 		int[] cloned = new int [10];
 		for(int i=0; i<original.length; i++) {
-			// original의 값을 cloned로 대입한다.
 
-			cloned[i] = original[i];
-		}
+			cloned[i] = original[i];	}
+			// original의 값을 cloned로 대입한다.
+		
 		for(int i=0; i<cloned.length; i++) {
 		System.out.print(cloned[i]);}				System.out.println();
 		
 		// 2차원 배열 기본 설명
 		int[][] score = new int[5][4];
- 
 		for(int i=0; i<score.length; i++) {
 			for(int j=0; j<score[i].length; j++) {
 				
